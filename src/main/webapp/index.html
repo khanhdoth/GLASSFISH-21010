@@ -16,7 +16,7 @@
       function connect() {
           wsocket = new WebSocket("ws://" + document.location.hostname + 
                 (document.location.port === "" ? "" : ":" + document.location.port) +  
-                "/dukeetf2/dukeetf");
+                "/GLASSFISH-21010/dukeetf");
           wsocket.onmessage = onMessage;
       }
       function onMessage(evt) {
